@@ -7,3 +7,40 @@ header{
     background-image: url(img/background1.jpg);
     background-size: cover;
 }
+.nav1{
+    float: right;  
+}
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px; 
+}
+.nav1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+.main1{
+    min-height: 500px ;
+    background-color: beige;
+    text-align: center;
+}
+.main1 h1{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.main1 p{
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main2{
+    height: 50px;
+    background-color: coral;
+    text-align: center;
+}
+.main2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px; 
+}
