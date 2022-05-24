@@ -38,6 +38,7 @@ header{
 .main2{
     height: 50px;
     background-color: coral;
+    background-image: linear-gradient(to right, coral, blue);
     text-align: center;
 }
 .main2 h1{
@@ -48,6 +49,7 @@ header{
     height: auto;
     width: 100%;
     background-color: coral;
+    background-image: linear-gradient(to right, coral, blue);
     color: aliceblue;
     padding: 10px;
     display: grid;
@@ -57,6 +59,11 @@ header{
     border: 2px solid cornflowerblue;
     height: 300px;
     width: 300px;
+    transition: 0.5s;
+}
+.img:hover{
+    transform: translate(0px, -100px);
+    border: 3px solid rgb(4, 13, 29);
 }
 .img1{
     background-image: url(img/1.jpg);
